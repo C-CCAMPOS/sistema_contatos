@@ -13,6 +13,15 @@
 <title>Agenda de contatos - Seja bem vindo!</title>
 <meta name="viewport" content="width=device-width" />
 
+<%
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+	response.setHeader("Pragma", "no-cache");
+	response.setDateHeader("Expires", 0);
+%>
+
+
+
+
 <!-- folha de estilos CSS do bootstrap -->
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
